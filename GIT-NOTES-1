@@ -219,4 +219,29 @@ git show <SHA-VALUE>
 	$ git diff-tree --no-commit-id --name-only -r <SHA-VALUE>
 
 
+=======
+Phase-7
+=======
+
+# BRANCHING
+	A. What is a branch?
+	B. Why and When we create a branch?
+	C. Branching Stratogy overview
+
+
+# List all the branches
+	$ git branch
+	
+# Creating a new branch
+	$ git branch new_branch_name
+
+# List all remote branches
+	$ git branch -r
+
+# Switching to a newly created branch
+	$ git checkout new_branch_name
+
+# Creating and switching to a newly created branch
+	$ git checkout -b new_branch_name
+
 
