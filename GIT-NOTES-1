@@ -244,4 +244,23 @@ Phase-7
 # Creating and switching to a newly created branch
 	$ git checkout -b new_branch_name
 
+# First push newly created branch into remote repo
+	$ git remote add <folder-name> <repo-url>
+	$ git push --set-upstream <repository-name> <branch-name>
+		or
+	$ git push -u origin --all
+
+# List all remote branches
+	$ git branch -r
+
+# Merge files from source branch to target branch
+	$ git merge <source-branch-name>
+
+# HEAD
+HEAD is a pointer in git which
+	- Always points to the latest commit in the repository
+	- Always points to tip of the current reposiotory
+	- Always points to parent of the next commit
+
+
 
