@@ -99,7 +99,7 @@ Phase-3
 	- Stage/"Staging Index" ---- (..)
 
 
-#It is remote repo url for clone the files.
+#THis Command is used for check the repository URL.
 	$ git remote -v
  
 #If you want downlod remote repository then apply this commnad (It is first time activity).
@@ -123,7 +123,7 @@ Phase-3
 	$ git commit -m "commit msg"
 (Note - Create same folder name repositry in the github server)
 	$ git remote add <folder-name> <repo-url>
-	$ git push <folder-name>
+	$ git push <folder-name> 
 	$ git push --set-upstream <folder-name> master
 
 
@@ -160,7 +160,7 @@ Phase-4
 #Qn.
 Show me all logs committed by user "Ram" AND has a commit message "math function" in it.
 
-$ git log --author="Ram" --grep="math function" -n2
+$ git log --author="Ram" --grep="commit msg" -n2
 
 =======
 Phase-5

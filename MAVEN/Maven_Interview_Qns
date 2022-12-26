@@ -67,7 +67,7 @@
 
 11.)What is the default naming convention of an artifacts(jar/war) in Maven?
 
-	- artifactId-version.jar/war (FOR EX. gamutkart-1.1-SNAPSHOT.war)
+	- artifactId-version.jar/war (FOR EX. flipkart-1.1-SNAPSHOT.war)
 
 
 12.)How do you generate a site in Maven?
@@ -124,7 +124,7 @@
 	- 1.) go to pom.xml file.
 	  2.) give some required name in build tag, see below example:
 		<build>
-			<finalName>gamutkart</finalName>
+			<finalName>flipkart</finalName>
 		</build>
 	  (note:- Only in target folder nameing convention is change not in .m2 folder)
 
