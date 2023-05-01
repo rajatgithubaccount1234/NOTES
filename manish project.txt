@@ -1,0 +1,10 @@
+apt install yarn
+
+
+npx browserslist
+
+
+
+sudo  `yarn start`
+
+sudo chmod -R 777 /var/lib/jenkins/workspace/manish/
